@@ -5,7 +5,7 @@ A very basic set of utilities to help with tweak development
 ### Installation
 
 ```
-$ curl -s https://raw.github.com/evanlucas/cycript_utils/master/install.sh | sh
+$ curl -sk https://raw.github.com/evanlucas/cycript_utils/master/install.sh | sh
 ```
 
 ### Usage

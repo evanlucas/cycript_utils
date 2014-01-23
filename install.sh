@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "downloading cycript utils..."
-mkdir -p /usr/lib/cycript0.9/com
-curl -s https://raw.github.com/evanlucas/cycript_utils/master/utils.cy > /usr/lib/cycript0.9/com/evanlucas/utils.cy
+mkdir -p /usr/lib/cycript0.9/com/evanlucas
+curl -sk https://raw.github.com/evanlucas/cycript_utils/master/utils.cy > /usr/lib/cycript0.9/com/evanlucas/utils.cy
 ret=$?
 if [[ "$ret" == "0" ]]; then
   echo "success..."
