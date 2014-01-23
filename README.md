@@ -12,7 +12,7 @@ $ curl -sk https://raw.github.com/evanlucas/cycript_utils/master/install.sh | sh
 
 ```
 $ cycript -p SpringBoard
-cy# require('com/evanlucas/utils')
+cy# var utils = require('com/evanlucas/utils')
 cy# utils.iconController
 // => #"<SBIconController: 0x125d35550>"
 
